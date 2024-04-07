@@ -75,7 +75,6 @@ def get_cropped_image_if_2_eyes(image_path, image_base64_data):
             roi_gray = gray[y:y+h, x:x+w]
             roi_color = img[y:y+h, x:x+w]
             eyes = eye_cascade.detectMultiScale(roi_gray)
-            #if len(eyes) >= 2:
             cropped_faces.append(roi_color)
     return cropped_faces
 
@@ -85,4 +84,3 @@ def get_b64_test_image_for_virat():
 
 if __name__ == '__main__':
     load_saved_artifacts()
-    #print(classify_image(None, "./test_images/virat3.jpg"))
