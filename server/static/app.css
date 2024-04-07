@@ -1,0 +1,90 @@
+.card-wrapper {
+    margin: 5% 0;
+  }
+
+.custom-circle-image {
+  width: 10vw;
+  height: 10vw;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+}
+
+/*.dropzone {
+  border-style: dashed;
+}*/
+.hero{
+    width :100%;
+    min-height: 100vh;
+    background: linear-gradient(#e7baff,#c2b6d9));
+    display: flex;
+    align-items: left-bottom;
+    justify-content: left-bottom;
+}
+#drop-area {
+    width:400px;
+    height: 300px;
+    padding: 10px;
+    background: #fff;
+    text-align:center;
+    border-radius: 20px;
+    position: relative;
+    overflow: visible !important;
+
+}
+#img-view{
+    height: 100%;
+    width: 100%;
+    border-radius:20px;
+    border: 2px dashed #bbb5ff;
+    background: #f7f8ff;
+    background-position: center ;
+    background-size: cover;
+}
+#img-view img{
+    width: 100px;
+    margin-top:25px;
+}
+#img-view span{
+    display: block;
+    font-size: 18px;
+    color: #777;
+    margin-top: 15px;
+}
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
